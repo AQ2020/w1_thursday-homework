@@ -5,3 +5,66 @@ p {
     background-color: brown;
     font-size: 2rem;
 }
+
+h1 {
+font-size: 10rem;
+color: chartreuse;
+}
+
+#notABrownP {
+    background-color: whitesmoke;
+    color: teal;
+}
+
+#mainDiv {
+    background-color: #08aeea;
+    background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%); 
+    padding: 20px; 
+    margin: 10px; 
+    border: 5px solid yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.insideDiv {
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
+    min-height: 300px;
+    background-color: rgba(123,90,224,1);
+    background-image: linear-gradient( 109.6deg,  rgba(123,90,224,1) 11.2%, rgba(164,46,253,1) 32.6%, rgba(213,56,234,1) 62.7%, rgba(251,138,52,1) 100.2% );
+}
+
+#mainDiv .insideDiv {
+    color: white;
+}
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.fancyText {
+    font-style: italic;
+}
+
+#secondDiv {
+    display: flex;
+}
+
+.flexwrap {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: chartreuse;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItem {
+    background-color: #08aeea;
+    border: 1px solid blue;
+    padding: 10px 20 px;
+}
