@@ -1,5 +1,7 @@
 body {
     background-image: linear-gradient( 138deg,  rgba(32,201,255,1) 36.7%, rgba(0,8,187,1) 84.4%, rgba(255,255,255,1) 119.7% );
+    margin: 0px;
+    padding:0px
 }
 p {
     background-color: brown;
@@ -11,6 +13,24 @@ font-size: 10rem;
 color: chartreuse;
 }
 
+.insideDiv img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#imageContainer {
+    position: relative;
+}
+
+#iWantToCenter {
+    min-height: 300px;
+    border: 5px solid black;
+}
+
+#iAmTheChild {
+    
+}
 #notABrownP {
     background-color: whitesmoke;
     color: teal;
