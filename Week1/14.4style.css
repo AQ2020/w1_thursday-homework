@@ -4,6 +4,25 @@ body {
 
 }
 
+h1 {
+    font-size: 6rem;
+    color: darkslategrey
+    }
+
+.firstP {
+    position: relative;
+    text-align: center;
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #mainDiv {
     padding:20px; 
     margin: 10px; 
@@ -12,7 +31,41 @@ body {
     justify-content: space-between;
 }
 
-.insideDiv img {
-    position: absolute;
-    border: 2px solid black; border-radius: 50px;
+.insideDiv {
+    position: relative;
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    border: 1rem solid blue;
+    border-radius: 40%;
+    position: relative;
+}
+
+#iWantToCenter {
+    min-height: 300px;
+    border:5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#secondDiv {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1rem;
+    font-style: initial;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flexwrap {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: skyblue;
 }
