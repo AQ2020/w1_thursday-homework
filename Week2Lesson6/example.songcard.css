@@ -97,7 +97,8 @@ body {
     transform: translateX(-60px);
     transition: transform .2s;
 }
-
+  
+/* incorporate: "animation: 3s linear 1s infinite alternate slidein;" */ 
 .song-card-play:before {
     content: "";
     position: absolute;
